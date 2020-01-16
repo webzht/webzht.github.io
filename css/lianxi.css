@@ -1,0 +1,113 @@
+@charset "UTF-8";
+body{background:#E2E2E2;}
+body,ul,li,h1,h2,h3,h4,h5,h6,p{margin: 0px; padding: 0px; font-family: "微软雅黑"; font-size: 14px;}
+ul li{list-style: none;}
+a{text-decoration:none;}
+p,span,b{display:block;}
+.liubai{width:1200px;margin:0 auto;}
+header{background:#262626;height:70px;position: fixed;z-index: 99;top:0px ;width:100%;box-shadow: 0px 2px 2px 2px #888888;}
+header div.logo{width:100px;line-height: 70px;height:70px;float: left;}
+div.logo span{font-size: 26px;float: left;color:#fff;display: block;padding-top: 24px;}
+div.logo p{font-size:26px;float: left;font-family: "宋体";color:#fff;}
+header div.zhanghao{float:right;height:70px;margin-left: 100px;}
+header div.zhanghao a{display: block;width:50px;height:30px;line-height:30px;float: left;
+color: #ffffff;background: #5FB878;text-align: center;border-radius: 4px;margin-top: 20px;}
+header div.zhanghao a:nth-child(1){background:#6D89BB;}
+header div.zhanghao a:hover{opacity:0.8;}
+header div.zhanghao span:hover{opacity:0.8;}
+header div.zhanghao span{width:26px;height:26px;line-height:26px;float:left;background:#202223;
+border-radius:100%;color:#999;z-index:99;position:relative;margin:23px -4px;text-align: center;}
+header nav{widows:600px;float: right;}
+header nav ul{height:70px;}
+header nav ul li{float: left; font-size: 15px;text-align:center;transition:0.3s;}
+header nav ul li a{width:90px;line-height:67px;color:#999;display: block;}
+header nav ul li:hover a,.selected{color:#62a8ea;text-decoration:none;}
+header nav ul li:hover,.selected{border-bottom:3px solid #62a8ea;}
+header nav ul li:hover  a.selected{border-bottom:0px solid #62a8ea;}
+div.xinxika{top:150px;width: 280px;height:500px;position: absolute;
+box-shadow:-4px 7px 15px 1px rgba(118, 95, 91, 0.34);}
+div.xinxika .module-one{background:#89C4FF;height:400px;}
+div.xinxika .module-one img.touxiang{border-radius:50%;margin:30px 40px;transition:3s;}
+div.xinxika .module-one img.touxiang:hover{transform:rotate(1080deg); transition:8s;}  
+div.xinxika .module-one img.wenx{position: relative;left: 240px;top:10px;opacity:0 ;transition:1s;}
+div.xinxika .module-one p{font-size:28px;text-align:center;width:100%;
+font-family:"Comic Sans MS";color:#010101;}
+div.xinxika .module-one p i{margin-right: 5px;}
+div.xinxika .module-one span{font-stretch: wider;letter-spacing:2px;width: 100%;
+text-align:center;margin-top:10px;color:##c8c8c8;;transition:1s;cursor: pointer;}
+div.xinxika .module-one span:hover{color:#fff;}
+div.xinxika .module-one a{float: left;margin-left: 20px;margin-top: 15px;}
+div.xinxika .module-one .am-icon-btn:before{line-height: 32px;font-size: 18px; }
+div.xinxika .module-one .am-icon-btn{width:32px;height: 32px;}
+div.xinxika .module-two{background:#fff;height:100px;padding:30px 50px ;}
+div.xinxika .module-two a{display: block;padding: 10px 35px;background:#000000;border-radius:50px;
+width:180px;text-align: center;color: #fff;}
+div.xinxika .module-two a:hover{text-decoration:underline;}
+
+div.ziliao{width:280px;height: auto;position: absolute;right:0px;top: 200px;float: left;}
+div.ziliao div.rng{width:250px;height:150px;background: #fff;box-shadow: 0px 0px 3px rgba(0,0,0,0.2);border-radius:4px ;padding: 20px 10px;}
+div.ziliao div.rng a{display: block;width:100px;height:40px;background: #0e90d2;border-radius: 4px;
+margin:5px ;color:#fff;float: left;text-align:center;line-height: 40px;transition:1s;right:0px;position: relative;top:0px;}
+div.ziliao div.rng img{position: absolute;top:-120px;}
+div.ziliao div.rng a:hover{border-radius:50px ;}
+div.ziliao div.rng a:nth-last-child(3){background: #f16e50;}
+div.ziliao div.rng a:nth-last-child(2){background: #5FB878;}
+div.ziliao div.rng a:nth-last-child(1){background: #6D89BB;}
+div.ziliao div.rng a:nth-last-child(1):hover{right:-10px;top:10px;}
+div.ziliao div.rng a:nth-last-child(2):hover{right:10px;top:10px;}
+div.ziliao div.rng a:nth-last-child(3):hover{right:-10px;top:-10px;}
+div.ziliao div.rng a:nth-last-child(4):hover{right:10px;top:-10px;}
+div.ziliao div.edg{width:250px;height:680px;background: #fff;box-shadow: 0px 0px 3px rgba(0,0,0,0.2);border-radius:4px ;padding: 10px;margin-top: 60px;}
+div.ziliao div.edg h2{border-bottom:2px solid #3B9BEA;font-size: 20px;}
+div.ziliao div.edg img{margin-bottom: 10px;margin-top: 10px;}
+div.ziliao div.edg div.lol{overflow:hidden;position: relative;width:230px;height:117px;float: left;margin-top: 10px;}
+div.ziliao div.edg div.lol p.loli{width:230px;height:97px;background-color:rgba(255,255,255,0.7);position: absolute;top:10px;
+z-index: 99;color:#666;text-align: center;padding-top: 50px;transition: 1s;opacity: 0;    transform: scale(0);}
+div.ziliao div.edg div.lol:hover p.loli{opacity:1;transform: scale(1,1);}
+div.gengduo{width:300px;height:auto;}
+div.weizhi{height:20px;margin-top: 5px;}
+div.weizhi span{width:100px;}
+div.shangfu{position: absolute;width:960px;margin:0 auto;top:120px;}
+div.shangfu p{color: #333;text-shadow: #fff 1px 1px 1px;text-align: center;line-height: 40px;}
+img.zhutu{border-radius: 4px;}
+
+div.content{width:960px; margin:0 auto;padding-left: 20px;padding-top: 80px;}
+div.content div.zongti{width:960px;height:1000px;margin-top: 10px;background: #fff;box-shadow: 0px 0px 3px rgba(0,0,0,0.2);border-radius: 5px;padding-top: 20px;}
+div.zongti div.tou{height:32px;float: left;width: 100%;}
+div.zongti div.tou h2{font-size: 20px;padding-left: 5px;float: left;border-top: 5px solid #82C525;}
+div.zongti div.tou span{float: left;line-height: 42px;padding-left: 10px;color: #B7B7B7;border-top: 5px solid #82C525;}
+div.zongti div.zuob{width: 440px;height:auto;float: left;margin-right: 30px;padding-top: 30px;}
+div.zongti div.zuob h3{color:#666;font-size:16px;font-weight:600;margin-bottom: 30px;padding-left: 5px;}
+div.zongti div.zuob span{color: #666;margin-bottom: 50px;padding-left: 5px;}
+div.zongti div.zuob ul li{float: left;width: 100%;line-height: 52px;padding-left: 5px;}
+div.zongti div.zuob ul li p{float: left;}
+div.zongti div.zuob ul li a{float: left;}
+div.zongti div.zuob ul li a:hover{text-decoration:underline;}
+div.zongti div.youb{width: 440px;height:auto;float: left;padding-top: 30px;}
+div.zongti div.youb p{font-weight:600;font-size: 20px;}
+div.zongti div.youb input{float: left;width:400px;height:40px;padding-left: 10px;
+margin-left: 10px;margin-top: 20px;border: 1px solid #E7E8EA;}
+div.zongti div.youb textarea{float: left;width:400px;height:100px;padding-left: 10px;
+margin-left: 10px;margin-top: 20px;border: 1px solid #E7E8EA;}
+div.zongti div.youb input:nth-last-child(1){color:#fff;background:#78C630 ;}
+div.swiper-container{width: 900px;padding-top:100px;height:400px;}
+
+footer{background:#262626;height: 350px;margin-top:60px;}
+img.pos{float:left;margin:20px 0px ;opacity:0.6;z-index:-1;position: relative;top:-200px;left:100px;border-radius: 30px;}
+footer div.dibu{width:100%;}
+footer div.dibu p.banquan{font-size: 12px;text-align: center;color:#f16e50;}
+footer div.dibu ul{width:1200px;height:320px;padding-top:40px;} 
+footer div.dibu ul li{float: left;width:480px;height:220px;padding-left: 40px;} 
+footer div.dibu ul li div.borri{border-right:1px solid #696666;height:220px;}
+footer div.dibu ul li div.yqlj{width:440px;float: left;}
+footer div.dibu ul li div.af{width:400px;float: left;}
+footer div.dibu ul li div.af p{font-size: 14px;color:#999;width:400px;}
+footer div.dibu ul li div.yqlj a{color: #ACABAB;width:100px;line-height:30px;display: block;float: left;margin: 5px;
+background:#393939;text-align: center;font-size: 12px;transition: 0.5s;}
+footer div.dibu ul li div.yqlj a:hover{background:#0e90d2;color:#fff;border-radius:20px 0px ;}
+ footer div.dibu ul li:first-child{width:140px;border-right:1px solid #000;margin-left: 100px;padding-left: 0px;}
+footer div.dibu ul li i{float: left;padding-top:8px;color:#fff;font-size:2px;}
+footer div.dibu ul li p{color:#fff;font-size: 15px;float: left;margin-left: 10px;}
+footer div.dibu ul li div.biao{width:140px;float:left;margin-bottom: 5px;}
+footer div.dibu ul li div.biao a{display: block;padding-left: 20px;color:#999;transition:all 0.5s;}
+footer div.dibu ul li div.biao a:hover{color:#fff;}

@@ -1,0 +1,570 @@
+﻿<html>
+<head>
+	<meta charset="utf-8"/>
+	 <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>雯爱博客-IT个人博客-一直在学业的旅路上</title> 
+	<link rel="stylesheet" type="text/css" href="css/swiper-3.4.2.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/amazeui.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+</head>
+<body>
+<header id="nav">
+<div class="liubai">
+   <div class="logo">
+   	<a href="#">
+    <span class="am-icon-leaf"></span>
+   <p>雯爱</p>
+   </a>
+   </div>
+   <div class="zhanghao">
+   	<a href="#">登录</a>
+   	<span>or</span>
+   	<a href="#">注册</a>
+   </div>
+   <nav>
+    <ul>
+   	<li><a href="#"  class="selected">首页</a></li>
+  	<li><a href="jianjie.html">个人简介</a></li>
+ 	<li><a href="wenzhang.html">文章</a></li>
+ 	<li><a href="sutu.html">素图</a></li>
+ 	<li><a href="shijian.html">心情随笔</a></li>
+ 	<li><a href="lianxi.html">联系我</a></li> 	
+    </ul>
+   </nav>
+</div>
+</header>
+<aside>
+	<!--左侧信息卡-->
+<div class="xinxika" data-scroll-reveal="enter left and move 80px over 1.33s">
+    <div class="module-one">
+	    <img src="img/touxiang.png" width="200px" class="touxiang"/>
+	    <p>LOVE WEN</p>
+	    <span>Florist | Decorator</span>
+	    <a href="#" class="am-icon-btn am-icon-facebook" onclick="alert('抱歉，博主没有脸书')"></a>
+	    <a href="#" class="am-icon-btn am-icon-twitter" onclick="alert('抱歉，博主没有推特')"></a>
+        <a href="#" class="am-icon-btn am-icon-weibo"></a>
+        <a href="#" class="am-icon-btn am-icon-qq"></a>
+        <a href="#" class="am-icon-btn am-icon-weixin" id="xs"></a>
+        <img src="img/weixin.jpg" width="100px" class="wenx" id="erwm">   
+    </div>
+    <div class="module-two">
+	  <a href="lianxi.html">Contact me</a>
+    </div>
+</div>
+  <!--右侧资料卡-->
+  <div class="ziliao" data-scroll-reveal="enter right and over 1.33s">
+  	<div class="module-one" id="guanbi" >
+  	<p class="menu-a" id="dakai">个人简介</p>
+  	<a href="#" class="am-icon-angle-down" id="fanz"></a>	
+  	<img src="img/penny.png" width="100px" class="xnh">
+  	<div class="text">
+  	<span style="font-size:13px;line-height: 36px;">
+  	 博客：雯爱(love wen)	<br>
+  	 国籍：中国 性别：男 00后<br>
+  	 职业：网站设计 前端<br>
+  	 姓名：暂不透露<br>
+  	 毕业院校：河北邯郸清华万博
+  	</span>	
+  	</div>
+  	</div>  
+  	<div class="module-two" id="guanbi1" >
+  		<p class="menu-a" id="dakai1">标签云</p>
+  	<a href="#" class="am-icon-angle-down" id="fanz1"></a>	
+  	<div class="text">
+  	<span style="font-size:12px;">
+    <a href="#" class="biaoqian">个人博客</a>
+    <a href="#" class="biaoqian">web开发</a>
+    <a href="#" class="biaoqian">前端设计</a>
+    <a href="#" class="biaoqian">Html</a>
+    <a href="#" class="biaoqian">CSS3</a>
+    <a href="#" class="biaoqian">HTML5+CSS3</a>
+    <a href="#" class="biaoqian">度娘</a>
+    <a href="#" class="biaoqian">Javascript</a>
+    <a href="#" class="biaoqian">个人博客</a>
+    <a href="#" class="biaoqian">音乐</a>
+    <a href="#" class="biaoqian">美图</a>
+    <a href="#" class="biaoqian">文章</a>
+  	</span>	
+  	</div>
+  	</div> 
+  	<div class="module-three" id="guanbi2" >
+  		<p class="menu-a" id="dakai2">近期文章</p>
+  	<a href="#" class="am-icon-angle-down" id="fanz2"></a>	
+  	<div class="text">
+  	<span style="font-size:14px;">
+  	<a href="#" class="wenz">住在手机里的朋友</a>	
+  	<a href="#" class="wenz">住在手机里的朋友</a>	
+  	<a href="#" class="wenz">住在手机里的朋友</a>	
+  	<a href="#" class="wenz">住在手机里的朋友</a>	
+  	<a href="#" class="wenz">住在手机里的朋友</a>	
+  	<a href="#" class="wenz">住在手机里的朋友</a>	
+  	
+  	</span>
+  	</div> 
+  	</div> 
+  	<div class="module-four" id="guanbi3" >
+  			<p class="menu-a" id="dakai3">音乐</p>
+  	<a href="#" class="am-icon-angle-down" id="fanz3"></a>	
+  	<div class="text">
+  	<span style="font-size:13px;">
+    <a class="yyue"><span class="am-icon-volume-up"></span><i onclick='yinyue();'>文爱</i><i>——CG</i></a>
+    <a class="yyue"><span class="am-icon-volume-up"></span><i onclick='yinyue1();'>Psycho(Pt. 2)</i><i>——Russ</i></a>
+    <a class="yyue"><span class="am-icon-volume-up"></span><i onclick='yinyue2();'>7538(Me U-Remix)</i><i>——Kt</i></a>
+    <a class="yyue"><span class="am-icon-volume-up"></span><i onclick='yinyue3();'>后来remix</i><i>——Maxone</i></a>
+    <a class="yyue"><span class="am-icon-volume-up"></span><i onclick='yinyue4();'>secret base ~君がくれたもの~ (10 years after Ver.)</i><i>——Russ</i></a>
+  	</span>
+  	</div> 
+  	</div> 
+  	<div class="module-five" id="guanbi4" >
+  			<p class="menu-a" id="dakai4">素图</p>
+  	<a href="#" class="am-icon-angle-down" id="fanz4"></a>	
+  	<div class="text"> 		
+  	<span style="padding:0px 10px ">  	
+  	<a href="sutu.html">
+  	<img src="img/number1.png" width="70px" height="64px" class="meit">	
+  	<img src="img/number2.jpg" width="70px" height="100px" class="meit">
+  	<img src="img/number3.jpg" width="70px" height="100px" class="meit">
+  	<img src="img/number4.jpg" width="56px" height="64px" class="meit">	
+  	</a>
+  	</span>
+  	</div> 
+  	</div> 
+  	<div class="module-six" id="guanbi5" >
+  	<p class="menu-a" id="dakai5">每日一语</p>
+  	<a href="#" class="am-icon-angle-down" id="fanz5"></a>	
+  	<div class="text">
+  	<span style="font-size:16px;">
+  	<a href="#" class="bok">从不羡慕别人的优秀，因为相信自己也可以优秀。
+闲下来时看看书，书本里的故事，总有你学到的人生。——段亮</a>	
+  	</span>
+  	</div> 
+  	</div> 
+  </div>
+   <!--主体内容-->
+  <div class="content">
+  	
+  <div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="img/1.jpg" width="900px">
+    <div><p>Title 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Defaults</p></div>
+    </div>
+    <div class="swiper-slide"><img src="img/2.jpg" width="900px" >
+    <div><p>Title 2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Assassin's Creed Riven</p></div>
+    </div>
+    <div class="swiper-slide"><img src="img/3.jpg" width="900px" >
+    <div><p>Title 3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Blood color sharp Riven</p></div>
+    </div>
+    <div class="swiper-slide"><img src="img/4.jpg" width="900px" >
+    <div><p>Title 4 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bunny Girl Riven</p></div>
+    </div>
+    <div class="swiper-slide"><img src="img/5.jpg" width="900px" >
+    <div><p>Title 5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The blade of the champion Riven</p></div>
+    </div>
+    <div class="swiper-slide"><img src="img/6.jpg" width="900px" >
+    <div><p>Title 6 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Go to the army for the father Riven</p></div>
+    </div>
+    <div class="swiper-slide"><img src="img/7.jpg" width="900px" >
+    <div><p>Title 7 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Video game Warrior Riven</p></div>
+    </div>
+    <div class="swiper-slide"><img src="img/8.jpg" width="900px" >
+    <div><p>Title 8 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The blade of the champion Riven2016</p></div>
+    </div>
+  </div>
+      <div class="swiper-button-prev swiper-button-white"></div>
+    <div class="swiper-button-next  swiper-button-white"></div>
+  </div>
+  <div class="wenzhang">
+  <h3>文章推荐</h3>
+  <ul>
+  	<li>
+  	<img src="img/01.jpg" width="160px"/>	
+  	<div class="blogs">
+  	<a href="#" class="biaot">住在手机里的朋友</a>	
+  	<p>通信时代，无论是初次相见还是老友重逢，交换联系方式，常常是彼此交换名片，然后郑重或是出于礼貌用手机记下对方的电话号码。在快节奏的生活里，我们不知不觉中就成为住在别人手机里的朋友。又因某些意外，变成了别人手机里匆忙的过客，这种快餐式的友谊 ...</p>
+  	<div class="zuo">
+  	<span class="am-icon-gittip am-icon-sm"></span>
+  	<span class="vged"><a href="#">个人博客</a></span>
+  	<span class="am-icon-eye am-icon-sm"></span>
+  	<span class="time">2017-09-26</span>
+  	</div>
+  	<div class="you">
+  	<span class="am-icon-comment-o am-icon-sm"></span>	
+  	<span>评论(<i>73</i>)</span>
+  	<span class="am-icon-share-alt am-icon-sm"></span>	
+  	<span>分享(<i>21</i>)</span>
+  	</div>
+  	</div>
+  	</li>
+  	<li>
+    <img src="img/02.jpg" width="160px"/>	
+  	<div class="blogs">
+  	<a href="#" class="biaot">住在手机里的朋友</a>	
+  	<p>通信时代，无论是初次相见还是老友重逢，交换联系方式，常常是彼此交换名片，然后郑重或是出于礼貌用手机记下对方的电话号码。在快节奏的生活里，我们不知不觉中就成为住在别人手机里的朋友。又因某些意外，变成了别人手机里匆忙的过客，这种快餐式的友谊 ...</p>
+  	<div class="zuo">
+  	<span class="am-icon-gittip am-icon-sm"></span>
+  	<span class="vged"><a href="#">个人博客</a></span>
+  	<span class="am-icon-eye am-icon-sm"></span>
+  	<span class="time">2017-09-26</span>
+  	</div>
+  	<div class="you">
+  	<span class="am-icon-comment-o am-icon-sm"></span>	
+  	<span>评论(<i>41</i>)</span>
+  	<span class="am-icon-share-alt am-icon-sm"></span>	
+  	<span>分享(<i>4</i>)</span>
+  	</div>
+  	</div></li>
+  	<li>
+    <img src="img/06.jpg" width="160px"/>	
+  	<div class="blogs">
+  	<a href="#" class="biaot">住在手机里的朋友</a>	
+  	<p>通信时代，无论是初次相见还是老友重逢，交换联系方式，常常是彼此交换名片，然后郑重或是出于礼貌用手机记下对方的电话号码。在快节奏的生活里，我们不知不觉中就成为住在别人手机里的朋友。又因某些意外，变成了别人手机里匆忙的过客，这种快餐式的友谊 ...</p>
+  	<div class="zuo">
+  	<span class="am-icon-gittip am-icon-sm"></span>
+  	<span class="vged"><a href="#">个人博客</a></span>
+  	<span class="am-icon-eye am-icon-sm"></span>
+  	<span class="time">2017-09-26</span>
+  	</div>
+  	<div class="you">
+  	<span class="am-icon-comment-o am-icon-sm"></span>	
+  	<span>评论(<i>30</i>)</span>
+  	<span class="am-icon-share-alt am-icon-sm"></span>	
+  	<span>分享(<i>0</i>)</span>
+  	</div>
+  	</div></li>
+  	<li>
+  	<img src="img/04.jpg" width="160px"/>	
+  	<div class="blogs">
+  	<a href="#" class="biaot">住在手机里的朋友</a>	
+  	<p>通信时代，无论是初次相见还是老友重逢，交换联系方式，常常是彼此交换名片，然后郑重或是出于礼貌用手机记下对方的电话号码。在快节奏的生活里，我们不知不觉中就成为住在别人手机里的朋友。又因某些意外，变成了别人手机里匆忙的过客，这种快餐式的友谊 ...</p>
+  	<div class="zuo">
+  	<span class="am-icon-gittip am-icon-sm"></span>
+  	<span class="vged"><a href="#">个人博客</a></span>
+  	<span class="am-icon-eye am-icon-sm"></span>
+  	<span class="time">2017-09-26</span>
+  	</div>
+  	<div class="you">
+  	<span class="am-icon-comment-o am-icon-sm"></span>	
+  	<span>评论(<i>38</i>)</span>
+  	<span class="am-icon-share-alt am-icon-sm"></span>	
+  	<span>分享(<i>9</i>)</span>
+  	</div>
+  	</div></li>
+  	<li>
+    <img src="img/01.jpg" width="160px"/>	
+  	<div class="blogs">
+  	<a href="#" class="biaot">住在手机里的朋友</a>	
+  	<p>通信时代，无论是初次相见还是老友重逢，交换联系方式，常常是彼此交换名片，然后郑重或是出于礼貌用手机记下对方的电话号码。在快节奏的生活里，我们不知不觉中就成为住在别人手机里的朋友。又因某些意外，变成了别人手机里匆忙的过客，这种快餐式的友谊 ...</p>
+  	<div class="zuo">
+  	<span class="am-icon-gittip am-icon-sm"></span>
+  	<span class="vged"><a href="#">个人博客</a></span>
+  	<span class="am-icon-eye am-icon-sm"></span>
+  	<span class="time">2017-09-26</span>
+  	</div>
+  	<div class="you">
+  	<span class="am-icon-comment-o am-icon-sm"></span>	
+  	<span>评论(<i>69</i>)</span>
+  	<span class="am-icon-share-alt am-icon-sm"></span>	
+  	<span>分享(<i>4</i>)</span>
+  	</div>
+  	</div></li>
+  	<li>
+     <img src="img/05.jpg" width="160px"/>	
+  	<div class="blogs">
+  	<a href="#" class="biaot">住在手机里的朋友</a>	
+  	<p>通信时代，无论是初次相见还是老友重逢，交换联系方式，常常是彼此交换名片，然后郑重或是出于礼貌用手机记下对方的电话号码。在快节奏的生活里，我们不知不觉中就成为住在别人手机里的朋友。又因某些意外，变成了别人手机里匆忙的过客，这种快餐式的友谊 ...</p>
+  	<div class="zuo">
+  	<span class="am-icon-gittip am-icon-sm"></span>
+  	<span class="vged"><a href="#">个人博客</a></span>
+  	<span class="am-icon-eye am-icon-sm"></span>
+  	<span class="time">2017-09-26</span>
+  	</div>
+  	<div class="you">
+  	<span class="am-icon-comment-o am-icon-sm"></span>	
+  	<span>评论(<i>75</i>)</span>
+  	<span class="am-icon-share-alt am-icon-sm"></span>	
+  	<span>分享(<i>83</i>)</span>
+  	</div>
+  	</div>
+  	</li>	
+  </ul>	
+  <i class="chakan">如果你想浏览更多文章可以去文章页查看咯！！！</i>
+  </div>
+  
+  </div>
+</aside>
+	<img src="img/mao.jpg" height="260px" class="pos">
+<footer>
+<div class="liubai">
+	<div class="dibu">
+	<ul>
+	<li>
+	<div class="borri">
+	<i class="am-icon-circle" id="bs"></i><p id="xt">—关于我</p>
+	<div class="biao">
+		<a href="#">个人简介</a>
+		<a href="#">联系我</a>
+	</div>
+	<i class="am-icon-circle" id="bs2"></i><p id="xt2">—网站运用</p>
+	<div class="biao">
+		<a href="#">Swiper</a>
+		<a href="#">scrollReveal</a>
+		<a href="#">amazeui</a>
+		<a href="#">jQuery</a>
+	</div>
+	</div>
+	</li>	
+	<li>
+	<i class="am-icon-circle" id="bs3"></i><p id="xt3">—友情链接</p>
+	<div class="yqlj">
+	<a href="#">英雄联盟</a>	
+	<a href="#">绝地求生</a>
+	<a href="#">花瓣网</a>
+	<a href="#">新浪微博</a>
+	<a href="#">Box锐雯</a>
+	<a href="#">奇点博客</a>
+	<a href="#">杨青博客</a>
+	<a href="#">H5网站模板</a>	
+    <a href="#">jQ网站模板</a>	
+    <a href="#">杨光博客</a>
+    <a href="#">网易云音乐</a>
+	</div>
+	</li>
+	<li>
+	<i class="am-icon-circle" id="bs4"></i><p id="xt4">一直在努力...</p>	
+	<div class="af">
+	<p><span>12月12日</span>正在努力的去学习js、jQ，希望可以学好吧</p>
+	<p><span>12月7日</span> 谷歌第二次更新PR，博客PR到了2！</p>
+    <p><span>11月6日</span> site发现百度放出了第一个快照6.4</p>
+    <p><span>11月4日</span> 百度建立了第一条索引</p>
+	</div>
+	</li>
+	</ul>	
+	<p class="banquan">本站采用创作共用版权 CC ZHANG-HONG-TAO/2.5/CN 许可协议 冀ICP备20000926号-1</p>
+	</div>
+</div>		
+</footer>
+<audio id='test' src="fonts/cg.mp3"></audio>
+<audio id='test1' src="fonts/pt2.mp3"></audio>
+<audio id='test2' src="fonts/7538.mp3"></audio>
+<audio id='test3' src="fonts/hl.mp3"></audio>
+<audio id='test4' src="fonts/xt.mp3"></audio>
+<script type="text/javascript" src="js/jquery.js" ></script>
+<script type="text/javascript" src="js/scrollReveal.js" ></script>
+<script type="text/javascript" src="js/swiper-3.4.2.min.js" ></script>
+<script>
+//幻灯片设置
+var mySwiper = new Swiper('.swiper-container', {
+loop : true,
+loopAdditionalSlides : 1,
+paginationClickable :true,
+autoplay : 2000,
+effect : 'fade',
+prevButton:'.swiper-button-prev',
+nextButton:'.swiper-button-next',
+})
+//页面滚动效果
+if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+		(function(){
+		window.scrollReveal = new scrollReveal({reset: true});
+	})();
+};
+  //展开关闭
+  		   document.getElementById("dakai").onclick=function(){
+  		   	var p=document.getElementById("guanbi").style;
+  		   	var a=document.getElementById("fanz").style;
+  		   	if(p.height!="50px"){
+  		   		p.height="50px";
+  		   	}else{
+  		   		p.height ="260px";
+  		   	}
+  		   	if(a.transform!="rotate(180deg)"){
+  		   		a.transform="rotate(180deg)";
+  		   	}else{
+  		   		a.transform="rotate(0deg)";
+  		   	}
+        }
+  		   document.getElementById("dakai1").onclick=function(){
+  		   	var p=document.getElementById("guanbi1").style;
+  		   	   	var a=document.getElementById("fanz1").style;
+  		   	if(p.height != "50px"){
+  		   		p.height ="50px";
+  		   	}else{
+  		   		p.height ="260px";
+  		   	}
+  		   	if(a.transform!="rotate(180deg)"){
+  		   		a.transform="rotate(180deg)";
+  		   	}else{
+  		   		a.transform="rotate(0deg)";
+  		   	}
+        }
+  		   document.getElementById("dakai2").onclick=function(){
+  		   	var p=document.getElementById("guanbi2").style;
+  		   	   	var a=document.getElementById("fanz2").style;
+  		   	if(p.height != "50px"){
+  		   		p.height ="50px";
+  		   	}else{
+  		   		p.height ="260px";
+  		   	}
+  		   	if(a.transform!="rotate(180deg)"){
+  		   		a.transform="rotate(180deg)";
+  		   	}else{
+  		   		a.transform="rotate(0deg)";
+  		   	}
+        }
+  		   document.getElementById("dakai3").onclick=function(){
+  		   	var p=document.getElementById("guanbi3").style;
+  		   	   	var a=document.getElementById("fanz3").style;
+  		   	if(p.height != "50px"){
+  		   		p.height ="50px";
+  		   	}else{
+  		   		p.height ="260px";
+  		   	}
+  		   	if(a.transform!="rotate(180deg)"){
+  		   		a.transform="rotate(180deg)";
+  		   	}else{
+  		   		a.transform="rotate(0deg)";
+  		   	}
+        }
+  		   document.getElementById("dakai4").onclick=function(){
+  		   	var p=document.getElementById("guanbi4").style;
+  		   	   	var a=document.getElementById("fanz4").style;
+  		   	if(p.height != "50px"){
+  		   		p.height ="50px";
+  		   	}else{
+  		   		p.height ="260px";
+  		   	}
+  		   	if(a.transform!="rotate(180deg)"){
+  		   		a.transform="rotate(180deg)";
+  		   	}else{
+  		   		a.transform="rotate(0deg)";
+  		   	}
+        }  
+  		   document.getElementById("dakai5").onclick=function(){
+  		   	var p=document.getElementById("guanbi5").style;
+  		   	   	var a=document.getElementById("fanz5").style;
+  		   	if(p.height != "50px"){
+  		   		p.height ="50px";
+  		   	}else{
+  		   		p.height ="260px";
+  		   	}
+  		   	if(a.transform!="rotate(180deg)"){
+  		   		a.transform="rotate(180deg)";
+  		   	}else{
+  		   		a.transform="rotate(0deg)";
+  		   	}
+        }   
+    //鼠标悬停显示
+      document.getElementById("xs").onmouseover=function(){
+      	document.getElementById("erwm").style.opacity="1";
+      }
+     document.getElementById("xs").onmouseout=function(){
+        document.getElementById("erwm").style.opacity="0";
+     }
+     document.getElementById("xt").onmouseover=function(){
+      	document.getElementById("bs").style.color="#999";
+      }
+     document.getElementById("xt").onmouseout=function(){
+        document.getElementById("bs").style.color="#fff";
+     }
+     document.getElementById("xt2").onmouseover=function(){
+      	document.getElementById("bs2").style.color="#999";
+      }
+     document.getElementById("xt2").onmouseout=function(){
+        document.getElementById("bs2").style.color="#fff";
+     }
+     document.getElementById("xt3").onmouseover=function(){
+      	document.getElementById("bs3").style.color="#999";
+      }
+     document.getElementById("xt3").onmouseout=function(){
+        document.getElementById("bs3").style.color="#fff";
+     }
+     document.getElementById("xt4").onmouseover=function(){
+      	document.getElementById("bs4").style.color="#999";
+      }
+     document.getElementById("xt4").onmouseout=function(){
+        document.getElementById("bs4").style.color="#fff";
+     }
+     //导航栏缩短 
+		var Nav=document.getElementById('nav');
+	window.onscroll=function(){
+		if(scrollY>100){
+			Nav.style.boxShadow="none"
+			Nav.style.opacity="0.9"
+		}else{
+		Nav.style.boxShadow=" 0px 2px 2px 2px #888888"
+			Nav.style.opacity="1"
+		};
+	};
+	        // 检查是否正在播放   text
+        var isPlaying =false; 
+        function yinyue() {
+            var player = document.getElementById('test');
+            if (isPlaying) {
+                // 如果正在播放, 停止播放并停止读取此音乐文件
+                player.pause();
+                player.src = '';
+            } else {
+                player.src = 'fonts/cg.mp3';
+                player.play();
+            }
+            isPlaying = !isPlaying;
+        }
+        	        // 检查是否正在播放   text1
+        var isPlaying =false; 
+        function yinyue1() {
+            var player = document.getElementById('test');
+            if (isPlaying) {
+                // 如果正在播放, 停止播放并停止读取此音乐文件
+                player.pause();
+                player.src = '';
+            } else {
+                player.src = 'fonts/pt2.mp3';
+                player.play();
+            }
+            isPlaying = !isPlaying;
+        }
+        	        // 检查是否正在播放  text2
+        var isPlaying =false; 
+        function yinyue2() {
+            var player = document.getElementById('test');
+            if (isPlaying) {
+                // 如果正在播放, 停止播放并停止读取此音乐文件
+                player.pause();
+                player.src = '';
+            } else {
+                player.src = 'fonts/7538.mp3';
+                player.play();
+            }
+            isPlaying = !isPlaying;
+        }
+        	        // 检查是否正在播放 text3
+        var isPlaying =false; 
+        function yinyue3() {
+            var player = document.getElementById('test');
+            if (isPlaying) {
+                // 如果正在播放, 停止播放并停止读取此音乐文件
+                player.pause();
+                player.src = '';
+            } else {
+                player.src = 'fonts/hl.mp3';
+                player.play();
+            }
+            isPlaying = !isPlaying;
+        }
+        	        // 检查是否正在播放 text4
+        var isPlaying =false; 
+        function yinyue4() {
+            var player = document.getElementById('test');
+            if (isPlaying) {
+                // 如果正在播放, 停止播放并停止读取此音乐文件
+                player.pause();
+                player.src = '';
+            } else {
+                player.src = 'fonts/xt.mp3';
+                player.play();
+            }
+            isPlaying = !isPlaying;
+        }
+</script>
+</body>
+</html>
